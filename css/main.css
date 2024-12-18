@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/* Header */
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.container header .logo {
+  width: 40px;
+}
+.container .navbar .links .link {
+  display: inline-block;
+}
+.container .navbar .links .link a {
+  color: white;
+  margin: 0 10px;
+}
+/* Header */
+/* content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.content .text {
+  width: 40%;
+  color: white;
+}
+.content .text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.content .text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.content .text a {
+  background-color: white;
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.content .image {
+  width: 30%;
+}
+.content .image img {
+  width: 180px;
+}
+/* content */
+/* Icons */
+.icons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icons img {
+  width: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icons img:hover {
+  transform: scale(1.2);
+}
+/* Icons */
